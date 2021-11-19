@@ -9560,7 +9560,7 @@ the high lords and common folk across the many realms of Europe."),
 		
       ("walled_center_move_court",
       [
-        (eq, 1, 2), # parabellum disabled
+        #(eq, 1, 2), # parabellum disabled
         (neg|party_slot_eq, "$current_town", slot_village_state, svs_under_siege),
         (faction_slot_eq, "fac_player_supporters_faction", slot_faction_leader, "trp_player"),
         (party_slot_eq, "$current_town", slot_town_lord, "trp_player"),
